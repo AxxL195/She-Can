@@ -14,7 +14,7 @@ const App: React.FC = () => {
       setEmail('');
       setMessage('');
     } else {
-      alert('Please fill the details.');
+      alert('Please fill the details properly.');
       setSubmitted(false);
     }
   };

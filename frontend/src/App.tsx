@@ -23,7 +23,7 @@ const App: React.FC = () => {
     <div className="max-w-md mx-auto mt-12 p-6 border border-gray-300 rounded-lg shadow-md font-sans">
       <h2 className="text-2xl font-bold mb-4 text-gray-800">Contact Form</h2>
       
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={}>
         <div className="mb-4">
           <label htmlFor="name" className="block font-semibold mb-1 text-gray-700">
             Name:
